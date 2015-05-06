@@ -2,8 +2,21 @@
 <meta charset="utf-8">
 <head>
 <title>Field Dependency Chart</title>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700|Source+Code+Pro' rel='stylesheet' type='text/css'>
+<link href="style.css" rel="stylesheet">
 </head>
-
 <body>
-<h1>Field Dependency Chart</h1>
+  <div class="container">
+    <h1>Form Field Dependency Chart</h1>
+    <p>This chart shows the current understanding of different form fields and their dependencies for the 
+    <a href="https://github.com/codeforamerica/rva-screening/" target="_blank">Code for America RVA Screening App</a>, as documented in this 
+    <a href="https://docs.google.com/spreadsheets/d/1bfxO5HbJm6buUbTk5GJSJKMznKqTCmXxb3Hc7Snn_1w/pubhtml" target="_blank">google spreadsheet</a>.
+    </p>
+    <div class="chart">
+    </div>
+  </div>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://underscorejs.org/underscore-min.js"></script>
+  <script type="text/javascript" src="tabletop.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </body>
