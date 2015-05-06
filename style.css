@@ -1,0 +1,8 @@
+body { font-family: "Source Sans Pro", sans-serif; background-color: #eee; }
+
+pre, code, .mono {
+  font-family: "Source Code Pro", monospace;
+}
+
+.container { margin: 0 auto; width: 50rem; background-color: #fff;
+  padding: 2rem; }
