@@ -1,8 +1,14 @@
 body { font-family: "Source Sans Pro", sans-serif; background-color: #eee; }
-
-pre, code, .mono {
-  font-family: "Source Code Pro", monospace;
-}
+pre, code, .mono, span.slug { font-family: "Source Code Pro", monospace; }
+ul { list-style-type: none; padding: 0; }
 
 .container { margin: 0 auto; width: 50rem; background-color: #fff;
   padding: 2rem; }
+
+span.question { font-weight: 600; }
+li { padding: 0.25rem 1rem; }
+li + li { border-top: 1px solid #ccc; }
+.status-nothing { color: #ccc; }
+.status-needed { background-color: #ff0; }
+span + span { margin-left: 1rem; }
+
