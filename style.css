@@ -2,13 +2,14 @@ body { font-family: "Source Sans Pro", sans-serif; background-color: #eee; }
 pre, code, .mono, span.slug { font-family: "Source Code Pro", monospace; }
 ul { list-style-type: none; padding: 0; }
 
-.container { margin: 0 auto; width: 50rem; background-color: #fff;
+.container { margin: 0 auto; width: 80rem; background-color: #fff;
   padding: 2rem; }
 
 span.question { font-weight: 600; }
-li { padding: 0.25rem 1rem; }
-li + li { border-top: 1px solid #ccc; }
-.status-nothing { color: #ccc; }
+.node { padding: 0.5rem 1rem; cursor: pointer; }
+.node:hover { background-color: #ff0; }
+.node + .node { border-top: 1px solid #ccc; }
+.status-nothing { color: #aaa; }
 .status-needed { background-color: #ff0; }
 span + span { margin-left: 1rem; }
-
+.condition-note { color: #00f; }
