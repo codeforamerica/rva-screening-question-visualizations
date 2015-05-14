@@ -74,7 +74,7 @@ function drawChart(){
   var nodes = tree.nodes(root);
   var entryDiv = d3.select(".chart");
   var nodeDivs = entryDiv.selectAll("div.node")
-    .data(nodes, function(d, i) { return d.id; })
+    .data(nodes, function(d, i) { return d.slug; })
     .enter().append("div").attr("class", function(d){
       return "node status-"+d.status;
     })
